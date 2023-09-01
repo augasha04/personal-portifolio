@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portifolio</title>
     <link rel="stylesheet" href="my.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -14,10 +15,18 @@
             <div class="logo">folio<b>.</b></div>
 
             <ul class="navItems">
-                <li><a href="#">home</a></li>
-                <li><a href="about">about</a></li>
-                <li><a href="skills">skills/projects</a></li>
-                <li><a href="blog">blog</a></li>
+                <li class="nav-content">
+                    <a href="#">home</a>
+                </li>
+                <li class="nav-content">
+                    <a href="about">about</a>
+                </li>
+                <li class="nav-content">
+                    <a href="skills">skills</a>
+                </li>
+                <li class="nav-content">
+                    <a href="blog">blog</a>
+                </li>
             </ul>
 
             <div class="links">
@@ -31,11 +40,10 @@
         <div class="wrapper">
             <div class="cols cols0">
                 <span class="topline">Hello</span>
-                <h1>I'm <span class="multitext">Augustine Mwangi</span></h1>
+                <h1> <span class="multitext">Augustine Mwangi</span></h1>
                 <p> I am a junior software developer, specializing in the app development arena. I have been developing websites and
-                    applications using python, JavaScript. HTML, React JS and SQL.
-                    Been a student at Moringa School, I'm hands on in all stages of the software dev cycle. From planning and design
-                    to testing and development.</p>
+                    applications using python, JavaScript. HTML, React JS and SQL.I'm hands on in all stages of the software dev cycle. From planning and design
+                    to testing and deployment.</p>
 
                     <div class="btns">
                         <button>download CV</button>
@@ -44,15 +52,25 @@
             </div>
             <div class="cols cols1">
                 <div class="imgbox">
-                    <img src="" id="splash">
-                    <img src="./images/facebook (1).png">
+                    <img src="./IMG_8910.JPG">
                 </div>
             </div>
         </div>
 
+
     </div>
 
 
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typyingEffect = new Typed(".multitext", {
+        strings: [" I'm Software Engineer", " I'm Cybersecuritier", "I'm Designer"],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1500
+    })
+</script>
 <script src="my.js"></script>
 </body>
 </html>
