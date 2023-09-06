@@ -12,6 +12,7 @@ body{
     overflow: hidden;
 }
 
+
 .container{
     width: 100%;
     min-height: 100vh;
@@ -125,6 +126,7 @@ b{
     z-index: 5;
 }
 
+
 .topline{
     display: block;
     position: relative;
@@ -225,6 +227,7 @@ button:hover{
     }
 }
 
+
 /* Default styles for larger screens */
 .container {
     padding: 0 10%;
@@ -279,3 +282,6 @@ button:hover{
         margin: 20px 0;
     }
 }
+
+
+
